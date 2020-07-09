@@ -1,0 +1,348 @@
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+body{
+background-image: url(black.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+/*{box-sizing: border-box;}*/
+
+
+img{
+  float:left;
+  width: 100px;
+  height: 100px;
+}
+
+.topnav {
+  margin-top: 0px;
+  overflow: hidden;
+  font-family: Arial,Helvetica, sans-serif;
+  background-color:black;
+  opacity: 0.7;
+}
+
+.topnav a {
+  float: left;
+  /*display: block;*/
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color:green;
+}
+
+/*.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}*/
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.dropbtn {
+  outline: none;
+  margin:0;
+    background-color:inherit;
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: none;
+    font-family: inherit;
+}
+
+.dropdown {
+  float:left;
+  overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  float:none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.twy{
+  float:right;
+}
+
+
+
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+
+    
+    float:left;
+    overflow-x: hidden;
+    padding: 8px 0;
+    margin-top: 44px;
+
+    overflow: hidden;
+   background-color:black;
+   opacity: 0.7;
+   font-family: Arial,Helvetica, sans-serif;
+}
+
+.sidenav a {
+     display: block;
+    color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sidenav a:hover {
+    background-color: green;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+/* Box styles */
+.myBox {
+float: right;
+border: none;
+padding: 5px;
+font: 24px/36px sans-serif;
+width: 270px;
+height: 500px;
+overflow: scroll;
+margin-top:10px;
+background-color: black;
+opacity: 0.4; 
+color: white;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid grey;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: grey;  
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:brown;  
+}
+
+.footer{
+  margin-top: 555px;
+  background-color:red;
+  opacity: 0.6;
+  height:90px;
+
+}
+.footer .down_link
+{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.footer .down_link a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.footer .down_link a:hover{
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.down_link_s{
+  float:right;
+  margin-right:750; 
+  align-content: left;
+}
+ /*
+.social {
+    @include 'social.css';
+    float:right;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}*/
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+ 
+<div class="topnav">
+<!--<img src="logo.png">-->
+  <a href="#" class="saksham">SAKSHAM</a>
+  <a class="active" href="front_end.html">Home</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="dashboard.html">Dashboard</a>
+  <a href="#">How to Proceed</a>
+  
+
+  
+<div class="dropdown" style="float:right">
+   <button class="dropbtn">Login
+    <i class="fa fa-caret-down"></i>
+   </button>
+   <div class="dropdown-content">
+    <a href="student.php">Student</a>
+    <a href="staff.php">Staff</a>
+  </div>
+</div>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">GO</button>
+    </form>
+  </div>
+</div>
+  <div class="sidenav">
+  <a href="FAQ.html">FAQ's</a><br>
+  <a href="query.php">QUERIES</a><br>
+  <a href="reviews.php">REVIEWS</a><br>
+  <a href="contactus.html">CONTACT</a><br>
+</div>
+
+
+
+<div class="footer">
+  <div class="down_link">
+   <a href="#">Copyright Policy</a>
+    <a href="#" class="down_link_s">&#169;Copyright 2018</a><br>
+    <a href="#">Privacy Policy</a>
+    <a href="#" class="down_link_s">Saksham Portal</a><br>
+    <a href="#">Terms and Conditions</a>
+    <a href="#" class="down_link_s">Site best viewd in</a><br>
+    <a href="#">Disclaimer</a>
+    <a href="#" class="down_link_s">Mozilla Firefox,Chrome,Safari etc</a><br>
+    </div>
+<div class="social">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+
+ </div>
+
+</body>
+</html>

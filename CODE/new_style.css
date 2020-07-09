@@ -1,0 +1,79 @@
+body
+{
+	background-image: url(black.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+
+}
+
+.left .button
+{
+	height: 50px;
+	width: 100px;
+	float:top;
+
+	color: hotpink;
+	background-color:black;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: table-cell;
+    padding-top: 30px;
+    
+   border-radius: 50%;
+    display:inline-block;
+    text-align: center;
+    font-size: 15px;
+    line-height: 2.3;
+    vertical-align:middle;
+    color: white;
+    font-weight: bold;
+    text-decoration: none  ;
+     margin-top:10px;
+    top: 50%;
+    opacity: 0.7;
+}
+
+.right .button1
+{
+	height: 50px;
+	width: 100px;
+	float:top;
+
+	color: hotpink;
+	background-color:black;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: table-cell;
+    padding-top: 30px;
+    
+   border-radius: 50%;
+    display:inline-block;
+    text-align: center;
+    font-size: 15px;
+    line-height: 2.3;
+    vertical-align:middle;
+    color: white;
+    font-weight: bold;
+    text-decoration: none  ;
+     margin-top:10px;
+    top: 50%;
+    opacity: 0.7;
+}
+
+.left .button : hover{
+
+
+}
+
+.right .button : hover{
+
+	
+}
+
+
+
+}
+

@@ -1,0 +1,37 @@
+<?php
+include('login.php'); // Includes Login Script
+if(isset($_SESSION['login_user'])){
+header("location: profile.php"); // Redirecting To Profile Page
+}
+?>
+
+
+
+<html>
+
+<head>
+
+<title>LOGIN FROM DESIGN</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+<body>
+     <div class="loginbox">
+     <img src=2nd.jpg class="avatar">
+     <h1>LOGIN HERE</h1>
+    <form>
+    <p>USERNAME</p>
+    <input type="text" name="" placegolder="ENTER USERNAME">
+    <p>PASSWORD</p>
+    <input type="password" name="" placegolder="ENTER PASSWORD">
+   <input type="submit" name="" value="Login">
+   <a href="#">LOST YOUR PASSWORD?</a><br>
+   <a href="#">DON NOT HAVE AN ACCOUNT?</a>
+   
+    </form>
+     </div>
+
+</body>
+
+</head>
+
+</html>
+

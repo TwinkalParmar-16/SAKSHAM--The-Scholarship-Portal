@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fill student.html</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+	.one:link, .one:visited {
+    background-color: #337ab7;
+    color: white;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 710px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+
+
+.one:hover, .one:active {
+    background-color:#337ab7;
+}
+
+.two:link, .two:visited {
+    background-color: #337ab7;
+    color: white;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+
+
+.two:hover, .two:active {
+    background-color:#337ab7;
+}
+
+
+
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body >
+<div class="container">
+<h1>Personal Information</h1>
+<form method="post" action="fill_form_connect.php">
+<div class="form-group">
+<label for="name">Name</label><input type="text" id="name" placeholder="Name" class="form-control" name="name"></div>
+<div class="form-group">
+<label for="dob">
+DOB</label><input type="date" class="form-control" id="dob" placeholder="DOB" name="dob"></div>
+<div class="form-group">
+<label for="head_of_household">
+Name of head of household</label><input type="text" class="form-control" id="head_of_household" placeholder="Name of head of household" name="head_of_household"></div>
+<div class="form-group">
+<label for="mothers_name">
+Mother's name</label><input type="text" class="form-control" id="mothers_name" placeholder="Mother's name" name="mothers_name"></div>
+<div class="form-group">
+<label for="fathers_name">
+Father's name</label><input type="text"class="form-control" id="fathers_name" placeholder="Father's name" name="fathers_name"></div>
+<div class="form-group">
+<label for="mobile_no">
+Student's Mobile Number</label><input type="text" class="form-control" id="mobile_no" placeholder="Student's Mobile Number" name="mobile_no"></div>
+<div class="form-group">
+<label for="email_add">
+Student's email Address</label><input type="text"class="form-control" id="email_add" placeholder="Student's email Address" name="email_add"></div>
+<div class="form-group">
+<label for="bhamashah">
+Bhamashah</label><input type="text" class="form-control" id="bhamashah" placeholder="Bhamashah" name="bhamashah"></div>
+<div class="form-group">
+<label for="aadhar_no">
+Aadhar No</label><input type="text" class="form-control" id="aadhar_no" placeholder="Aadhar No" name="aadhar_no"></div>
+<div class="form-group">
+<label for="Gender">Gender</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select>
+</div>
+<div class="form-group">
+<label for="category">Category</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="General">General</option>
+<option value="OBC">OBC</option>
+<option value="SC">SC</option>
+<option value="ST">ST</option>
+<option value="SBC">SBC/Special class</option>
+<option value="EBC">EBC</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Region">Region</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="Rural">Rural</option>
+<option value="Urban">Urban</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Economic_Group">Economic Group</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="BPL">BPL</option>
+<option value="APL">APL</option>
+<option value="Antyodata">AntyodataL</option>
+<option value="State_BPL">State BPL</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Minority">Minority</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Marital_Status">Marity Status</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Orphan">Orphan</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Child_of_a_Widow">Child of a Widow</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</div>
+<div class="form-group">
+<label for="A_Widow">A Widow</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Divorced">Divorced</label>
+<select>
+<option value="select_option">Select Option</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Family's_Annual_Income">
+Family's Annual Income</label>
+<input type="text"class="form-control" id="Family's_Annual_Income" placeholder="Family's Annual Income" name="Family's_Annual_Income"></div>
+<h4><b>Address:</b></h4>
+<div class="form-group">
+<label for="House/Apartment_No">
+House/Apartment No</label>
+<input type="text"class="form-control" id="House/Apartment_No" placeholder="House/Apartment No." name="House/Apartment_No"></div>
+<div class="form-group">
+<label for="Street">
+Street/Road/Lane</label>
+<input type="text"class="form-control" id="Street" placeholder="Street/Road/Lane" name="Street"></div>
+<div class="form-group">
+<label for="Landmark">
+Landmark</label>
+<input type="text"class="form-control" id="Landmark" placeholder="Landmark" name="Landmark"></div>
+<div class="form-group">
+<label for="Village">
+Village/Town</label>
+<input type="text"class="form-control" id="Village" placeholder="Village/Town" name="Village"></div>
+<div class="form-group">
+<label for="Village">
+Village/Town</label>
+<input type="text"class="form-control" id="Village" placeholder="Village/Town" name="Village"></div>
+<div class="form-group">
+<label for="District">
+District</label>
+<input type="text"class="form-control" id="District" placeholder="District" name="District"></div>
+<div class="form-group">
+<label for="State">State</label>
+<select name="State">
+<option value="select_option">Select Option</option>
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chattisgarth">Chattisgarth</option>
+<option value="Goa">Goa</option>
+<option value="Guajarat">Guajarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Himachal Pradesh">Himachal Pradesh</option>
+<option value="Jammu & Kashmir">Jammu & Kashmir</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Predesh">Madhya Predesh</option>
+<option value="Maharastra">Maharastra</option>
+<option value="Manipur">Manipur</option>
+<option value="Meghalaya">Meghalaya</option>
+<option value="Mizoram">Mizoram</option>
+<option value="Nagaland">Nagaland</option>
+<option value="Orissa">Orissa</option>
+<option value="Panjab">Panjab</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Sikkim">Sikkim</option>
+<option value="Tamilnadu">Tamilnadu</option>
+<option value="Telangana">Telangana</option>
+<option value="Tripura">Tripura</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="West Bengal">West Bengal</option>
+</select><br>
+<input type="submit" style="margin-top: 15px;font-size:15px" value="Save & Continue">
+</div>
+</form>
+</div >
+<a href="profile.php" class="one"> Previous</a>
+<a href="bank_detail.html" class="two" >Next</a>
+
+
+</div>
+</body>
+</html>
